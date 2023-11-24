@@ -98,7 +98,6 @@ p{
 
 #hoverbody{
     margin-top: 20px;
-    margin-bottom: 20px;
     background-color: #1C181D;
     color: white;
     display: flex;
@@ -139,6 +138,7 @@ box-shadow: 0px 0px 2px white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 #setup{
@@ -166,4 +166,61 @@ box-shadow: 0px 0px 2px white;
     height: 7px;
     border-radius: 5px;
 
+}
+
+#setupone{
+    background-color: #E3E3E3;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    display: none;
+   
+}
+
+#loadi{
+    position: relative;
+    top: 6px;
+    
+}
+
+#customizee{
+    border-radius: 7px;
+    padding: 5px;
+   width: max-content;
+   font-size: 10px;
+   color: white;
+   background-color: #1C181D;
+   margin-bottom: 7px;
+}
+
+#norsetup{
+    display: flex;
+    gap: 5px;
+    padding-left: 3px;
+}
+
+#norsetupCust{
+    display: flex;
+    gap: 5px;
+    padding-left: 3px;
+    
+}
+#wrapper.active{
+    display: block;
+}
+#wrapper{
+    display: none;
+}
+
+#downpp{
+    display: none;
+}
+
+#downpp.active2{
+    display: block;
+}
+
+#upp.active3{
+    display: none;
 }
