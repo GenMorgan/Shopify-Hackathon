@@ -35,5 +35,9 @@ function startset(){
 }
 
 function expand1(){
+    let ur = document.getElementById("norsetupCust");
+    ur.classList.toggle("active4");
+    let yr = document.getElementById("setupone");
+    yr.classList.toggle("active5");
     
 }
