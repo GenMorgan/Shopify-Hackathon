@@ -41,3 +41,11 @@ function expand1(){
     yr.classList.toggle("active5");
     
 }
+
+function expand2(){
+    let ur = document.getElementById("norsetup");
+    ur.classList.toggle("active44");
+    let yr = document.getElementById("setupone2");
+    yr.classList.toggle("active55");
+    
+}
